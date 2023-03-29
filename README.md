@@ -1,4 +1,5 @@
-# LandingPage
-This is a webpage template made for Percy Jackson fans (a fantasy book)
+# WebProject
 
-This project includes HTML, CSS and JavaScript. Here, you can create a acount and make comments of the books! Or, you can simply browse stories and see their rankings.
+This is a web project template that I made during the classes of the web development course in the second semester of college. The goal of this site is to create a community of readers, where they can interact, favorite, and comment on their favorite books. 
+
+The project relies on HTML, CSS, JavaScript and a database will be implemented in the future.
