@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS  e JavaScript-->
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <!--Fontes-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap" rel="stylesheet">
+
+
+    <!--Bootstrap e Jquery-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA 058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+    <title>Contato</title>
+</head>
+
+<body>
+    <object width="100%" height="100px" style="position: fixed;" data="..\Web Design\header.html"></object>
+
+
+    <section class="banner-interna">
+        <h1>Sagas</h1>
+    </section>
+
+    <div class="carousel-slide ">
+        <section>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <a href="..\Web Design\livros-pjo.html"><img src="..\Web Design\image\pjo1.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <a href="..\Web Design\livros-hdo.html"><img src="..\Web Design\image\hdo1.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <a href="..\Web Design\livros-CK.html"><img src="..\Web Design\image\CK1.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <a href="..\Web Design\livros-MC.html"><img src="..\Web Design\image\MC1.jpg"></a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <a href="..\Web Design\livros-PA.html"><img src="..\Web Design\image\PA1.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(" .mySwiper", {
+            autoplay: {
+                delay: 3000,
+            },
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidePerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: ".swipe-button-next",
+                prevEl: ".swipe-button-prev"
+            }
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>

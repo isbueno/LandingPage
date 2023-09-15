@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS  e JavaScript-->
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="home.js"></script>
+
+
+    <!--Fontes-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap" rel="stylesheet">
+
+
+    <!--Bootstrap e Jquery-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA 058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <title>Home</title>
+</head>
+
+<body>
+
+<!--    <object width="100%" height="100px" style="position: fixed;" data="..\Web Design\header.html"></object>
+    <iframe src="..\Web Design\header.html" width="100%" height="200px" frameborder="0"></iframe>
+-->
+<body>
+    <!------------------------------------->
+
+    <header id="mainheader" style="width:100%; height:200px;"></header>
+
+    <div id="contaner"></div>
+
+    <header id="mainfooter"></header>
+
+    <script type="text/javascript">
+    carregaDocumento("header.html", "#mainheader");
+    carregaDocumento("rodape.html", "#mainfooter");
+
+    function carregaDocumento(arquivo, target)
+    {
+        var el = document.querySelector(target);
+
+        //Se o elemento não existir então não requisita
+        if (!el) return;
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", arquivo, true);
+        xhr.onreadystatechange = function(){
+             if (xhr.readyState == 4 && xhr.status >= 200 && xhr.status < 300){
+                  el.innerHTML = xhr.responseText;
+             }
+        };
+
+        xhr.send(null);
+    }
+    </script>
+
+    <!------------------------------------->
+    <section class="container">
+        <div class="banner-principal">
+            <h1><strong>OLÍMPO</strong></h1>
+            <p>Seja bem-vindo ao fã clube de semideuses.</br> Gostaria de saber mais? Clique</br> no botão abaixo!
+            </p>
+            <a href="..\Web Design\quem-somos.html"> <button class="botao botao-banner" type="button">Saiba
+                    mais</button></a>
+        </div>
+    </section>
+
+    <div class="carousel-slide secao">
+
+        <h2>Sagas</h2>
+        <section>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <a href="..\Web Design\livros-pjo.html"><img src="..\Web Design\image\pjo1.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <a href="..\Web Design\livros-hdo.html"><img src="..\Web Design\image\hdo1.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <a href="..\Web Design\livros-CK.html"><img src="..\Web Design\image\CK1.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <a href="..\Web Design\livros-MC.html"><img src="..\Web Design\image\MC1.jpg"></a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <a href="..\Web Design\livros-PA.html"><img src="..\Web Design\image\PA1.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(" .mySwiper", {
+            autoplay: {
+                delay: 3000,
+            },
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidePerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: ".swipe-button-next",
+                prevEl: ".swipe-button-prev"
+            }
+        })
+
+    </script>
+
+    <section class="secao minha-lista" style="background-color: rgb(155, 187, 185);">
+        <h2>Entre em contato</h2>
+
+        <p><strong>Você tem alguma sugestão? Entre em contato! :)</strong></p>
+        <br />
+        <a href="..\Web Design\contato.html"><button class="botao botao-entrar">Entrar em contato</button></a>
+    </section>
+
+    <div class="px-4 py-5 px-md-5 text-center text-lg-start banner-entrar secao">
+        <div class="container">
+            <div class="row gx-lg-5 align-items-center">
+                <div class="col-lg-6 mb-6 mb-lg-0">
+                    <h2>Faça seu login e conheça mais o site!</h2>
+
+                    <p><strong>Ainda não tem uma conta? Faça seu cadastro!</strong></p></br>
+                    <a href="..\Web Design\Cadastro.html"><button id="entrar-btn"
+                            class="botao botao-banner">Cadastrar</button></a>
+                </div>
+
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="card">
+                        <div class="card-body py-5 px-md-5">
+                            <form>
+                                <!-- 2 column grid layout with text inputs for the first and last names -->
+                                <div class="form-outline mb-4">
+                                    <input type="text" id="form3Example1" class="form-control"
+                                        placeholder="Usuário: " />
+                                    <label class="form-label" for="form3Example1"></label>
+                                </div>
+
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <input type="email" id="form3Example3" class="form-control"
+                                        placeholder="E-mail: " />
+                                    <label class="form-label" for="form3Example3"></label>
+                                </div>
+
+                                <!-- Password input -->
+                                <div class="form-outline mb-4">
+                                    <input type="password" id="form3Example4" class="form-control"
+                                        placeholder="Senha: " />
+                                    <label class="form-label" for="form3Example4"></label>
+                                </div>
+
+                                <!-- Submit button -->
+                                <button type="submit" style="width: 30%; margin-left: 30%;"
+                                    class="botao botao-banner btn-block mb-4">
+                                    Entrar
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <object width="100%" height="74px" data="..\Web Design\footer.html"></object>
+
+    <script src="jquery.min.js"></script>
+</body>
+
+</html>

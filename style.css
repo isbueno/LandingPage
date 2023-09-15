@@ -1,0 +1,712 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.container div.banner-principal {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 650px;
+    background: url('../Web Design/image/OLÍMPO.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+object {
+    z-index: 1;
+}
+
+.flex {
+    display: flex;
+    list-style: none;
+}
+
+.box-interna-livros h1,
+.secao h1,
+.banner-interna h1 {
+    margin-top: 40px;
+    font-size: 45px;
+    font-family: 'IM Fell Great Primer SC', serif;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.secao ul {
+    margin-top: 60px;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.autor h2,
+.secao h2 {
+    font-size: 35px;
+    font-family: 'IM Fell Great Primer SC', serif;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.banner-interna {
+    font-size: 35px;
+    font-family: 'IM Fell Great Primer SC', serif;
+    padding: 30px 0px;
+    text-align: center;
+    position: relative;
+}
+
+.banner-comentario h2 {
+    font-size: 35px;
+    font-family: 'IM Fell Great Primer SC', serif;
+    padding: 60px;
+    text-align: left;
+}
+
+.banner-comentario p {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px;
+    text-align: left;
+}
+
+.banner-interna .banner-comentario {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/*Nav*/
+#navbar {
+    border-bottom: 1px solid rgba(0, 8, 0, 0.4);
+}
+
+.navbar .logo {
+    color: #031628;
+    width: 80vh;
+    margin-left: 100px;
+    border-radius: 150px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.nav-link:hover,
+.nav-item:hover,
+.nav-item:active {
+    color: #FFE900;
+}
+
+/*Banner principal*/
+
+
+/*Banner para as páginas internas*/
+.banner-interna {
+    margin: -30;
+    width: 100%;
+    height: 250px;
+    background: url('../Web Design/image/mar.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    text-align: center;
+}
+
+/*Minha Lista*/
+.banner-minha-lista-interna {
+    width: 100%;
+    height: 250px;
+    background: url('../Web Design/image/banner-minha-lista.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.ml-ondas img {
+    margin-top: -50px;
+    margin-left: -191px;
+    width: 100%;
+    height: 10vh;
+}
+
+.box-minha-lista {
+    box-sizing: border-box;
+    background-color: #e1e1e1;
+    width: 70%;
+    height: 450px;
+    margin-top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    position: relative;
+}
+
+.quem-somos p {
+    color: #031628;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    justify-content: left;
+}
+
+.box-minha-lista p {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    color: #031628;
+    margin: 30px;
+}
+
+.box-minha-lista h2 {
+    text-align: left;
+    padding: 30px;
+    color: #031628;
+    border-bottom: 1px solid #9bbbb9;
+}
+
+.quem-somos h2 {
+    color: #031628;
+}
+
+/*Minha Lista*/
+.ondas {
+    margin-top: 0px;
+    z-index: 1;
+}
+
+.minha-lista h2 {
+    color: #FFFFFF;
+}
+
+.minha-lista p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+.minha-lista button {
+    font-weight: bold;
+}
+
+
+.ondas-contrario img {
+    margin-bottom: -50px;
+    margin-left: -191px;
+    width: 100%;
+    height: 10vh;
+}
+
+
+/*Formulário de contato*/
+
+.form-contato {
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+}
+
+.form-contato h2 {
+    text-align: center;
+}
+
+.form-contato ul {
+    display: flex;
+    list-style: none;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.form-contato form input {
+    width: 100%;
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(4, 28, 50, 0.4);
+    border-radius: 10px;
+}
+
+.form-contato form input:hover {
+    background-color: rgba(4, 28, 50, 0.5);
+}
+
+.form-contato .lista {
+    margin-left: 20%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+    border-left: 1px solid rgba(4, 28, 50, 0.4);
+}
+
+
+.box-minha-lista fieldset {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-minha-lista .slider-livros {
+    padding: 30px;
+}
+
+.box-minha-lista img {
+    width: 200px;
+    height: 300px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.quem-somos {
+    justify-content: center;
+    padding: 30px;
+}
+
+.autor {
+    padding: 15px;
+    color: #FFFFFF;
+    padding: 60px;
+    justify-content: center;
+}
+
+.quem-somos img {
+    width: 20%;
+    left: 50%;
+    border-radius: 200px;
+}
+
+.box-interna-livros img {
+    width: 300px;
+    height: 400px;
+}
+
+.ondas img {
+    margin-left: -27px;
+    width: 100%;
+    height: 10vh;
+}
+
+.botao {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.botao:hover {
+    transform: scale(1.2);
+    transition: 0.4s ease;
+}
+
+.botao-banner {
+    background-color: rgba(4, 28, 50, 0);
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+.botao-banner:hover {
+    background-color: rgb(4, 28, 50);
+    border: 1px solid rgb(4, 28, 50);
+    color: #FFFFFF;
+}
+
+.botao-entrar {
+    color: #031628;
+    border: 1px solid #031628;
+    background-color: rgba(4, 28, 50, 0);
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.botao-entrar:hover {
+    background-color: #031628;
+    border: 1px solid #031628;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.botao-ler {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: rgba(4, 28, 50, 0);
+    margin-top: 60px;
+    margin-right: 20px;
+    display: inline;
+    color: #FFFFFF;
+}
+
+.botao-ler:hover {
+    background-color: #FFFFFF;
+    border: 1px solid white;
+    color: rgb(4, 28, 50);
+    text-decoration: none;
+}
+
+.box-interna-livros {
+    display: block;
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    background-color: #031628;
+    color: #FFFFFF;
+    padding: 60px 100px;
+    margin-top: 100px;
+}
+
+
+.ul-box-interna-livros {
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+.ul-box-interna-livros li {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.ul-box-interna-livros h2 {
+    justify-content: left;
+}
+
+/*Popups*/
+
+.modal-backdrop.show {
+    display: none;
+}
+
+.modal {
+    font-family: 'IM Fell Great Primer SC', serif;
+    color: #031628;
+    margin-top: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    .box-interna-livros {
+        background-color: rgba(4, 28, 50, 0.7);
+        display: inline;
+        width: 100%;
+        left: 0;
+        padding: 20px;
+    }
+
+    .box-interna-livros img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .box-interna-livros h1 {
+        font-size: 20px;
+    }
+
+    .box-interna-livros h2 {
+        font-size: 16px;
+    }
+
+    .box-interna-livros #button-popup {
+        margin-top: 30px;
+    }
+
+    .box-interna-livros hr {
+        display: none;
+    }
+
+    .box-interna-livros li button {
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    .form-contato ul {
+        display: flex;
+    }
+
+    .form-contato .lista {
+        text-align: center;
+        border: none;
+        margin-left: 15%;
+    }
+
+    .entrar-interna {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .entrar-interna button {
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 15px 30px;
+    }
+
+    .entrar-interna form {
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 15px 30px;
+    }
+
+    .entrar-interna .jumbotron {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .form-contato ul {
+        display: inline;
+    }
+
+    .form-contato .lista {
+        position: absolute;
+        left: 12%;
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+}
+
+.autor p,
+h2 {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.autor img {
+    width: 400px;
+    padding: 30px;
+}
+
+/*Seção Entrar*/
+.banner-entrar {
+    width: 100%;
+    height: auto;
+    background: url('../Web Design/image/deuses-olimpo.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    color: #031628;
+    padding: 100px 30px;
+}
+
+.banner-entrar h2 {
+    color: #FFFFFF;
+}
+
+.banner-entrar p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+.banner-entrar a {
+    color: #9bbbb9;
+}
+
+.banner-entrar .container {
+    box-sizing: border-box;
+    border: 1px solid white;
+    padding: 30px;
+}
+
+.banner-entrar form {
+    border-left: 1px solid white;
+    padding: 30px;
+}
+
+.banner-entrar form input {
+    border: 1px solid white;
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.banner-entrar form input:hover {
+    box-shadow: 1px 1px 10px 1px #9bbbb9;
+}
+
+.box-entrar {
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 300px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.box-entrar ul {
+    list-style: none;
+}
+
+input {
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+input:hover {
+    border: 1px solid #cacaca;
+    background-color: #cacaca;
+}
+
+/*Sagas*/
+
+.carousel-slide {
+    box-sizing: border-box;
+    width: 100%;
+    height: 600px;
+    padding: 30px 345px;
+    text-align: center;
+    background-color: rgb(4, 28, 50);
+}
+
+.carousel-slide h2 {
+    color: #FFFFFF;
+}
+
+.carousel-slide p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 30px;
+}
+
+.carousel-slide section {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-slide .card {
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-pagination {
+    position: absolute;
+    top: 320px;
+}
+
+.botao-carousel {
+    position: absolute;
+    top: 1180px;
+    left: 40%;
+    border-radius: 30px;
+    background-color: rgba(4, 28, 51, 0);
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.botao-carousel {
+    position: absolute;
+    top: 1180px;
+    left: 40%;
+    background-color: rgba(4, 28, 51, 0);
+    color: #FFFFFF;
+}
+
+.botao-carousel:hover {
+    background-color: #FFFFFF;
+    color: #031628;
+}
+
+.carousel-slide section .card .image {
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 300px;
+    background-color: #031628;
+}
+
+.carousel-slide section .card .image img {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    transition: all 0.4s;
+    background-color: #031628;
+}
+
+.carousel-slide section .card .image img:hover {
+    transform: scale(1.07);
+    opacity: 80%;
+}
+
+
+
+@media only screen and (max-width: 600px) {}
+
+.jumbotron {
+    background-color: rgba(4, 28, 50, 0.4) !important;
+    color: #031628;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {}
+
+.Lista-cadastro {
+    padding: 60px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    color: #031628;
+}
+
+
+.Lista-cadastro ul {
+    font-size: 20px;
+}
+
+.flex-comentario {
+    display: flex;
+    color: #031628;
+    justify-content: space-between;
+    margin-top: 30px;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.Lista-comentarios {
+    padding: 60px;
+    text-align: center;
+    color: #031628;
+}
+
+footer {
+    background-color: #031628;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+footer a {
+    color: #9bbbb9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #9bbbb9;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {}

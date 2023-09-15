@@ -1,0 +1,35 @@
+Este é um projeto de desenvolvimento web feito no 3º Semestre do curso de ADS.
+
+O objetivo deste site era reunir fãs de uma série de livros em uma comunidade no site.
+
+O exercício proposto de fazer a manutenção foi resolvido nas páginas Home.html e Style.css, fazendo uma atualização de alguns termos de web semântica e de css em algumas partes do site.
+
+O restante dos arquivos é irrelevante para o exercício.
+
+
+-------
+
+Faça uma manutenção em um programa
+
+- Identifique o programa e registre a linguagem em que é feito, o número de arquivos e o número total de linhas de código (somado de todos os arquivos)
+
+Programa: Site para comunidade de fãs
+Linguagem: HTML e CSS
+Arquivos: 2 (Home.html e style.css)
+Total de Linhas: 179 + 712 = 891 linhas
+
+- Registre quanto tempo você demorou para entender o programa
+
+Demorou em torno de alguns minutos para compreender como havia feito as coisas naquela época.
+
+- Escolha uma alteração a ser feita e registre quanto tempo você demorou para planejar como ela será feita
+
+A alteração escolhida foi mudar a home com melhoramentos no código, sem alterar layout.
+
+- Registre quanto tempo você demorou para efetuar a alteração
+
+15 minutos.
+
+- Registre quanto tempo você demorou para verificar se a alteração foi feita corretamente
+
+Aproximadamente 2 minutos

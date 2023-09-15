@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!--CSS  e JavaScript-->
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <script src="home.js"></script>
+    <script src="comentarios.js"></script>
+
+
+    <!--Fontes-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap" rel="stylesheet">
+
+
+    <!--Bootstrap e Jquery-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA 058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+    <title>Comentários</title>
+</head>
+
+<body>
+    <object width="100%" height="100px" style="position: fixed;" data="..\Web Design\header.html"></object>
+
+    <section class="banner-interna" style="height: 460px;">
+
+        <div class="banner-comentario-h2">
+            <h1>Comentários</h1>
+            <a href="#faca-comentario"><button class="botao botao-banner">Faça seu
+                    comentário</button></a>
+        </div>
+    </section>
+
+    <div class="banner-comentario">
+
+        <h2>Posts:</h2>
+
+        <ul style="margin-left: 60px;" id="posts">
+
+        </ul>
+
+
+        <div id="faca-comentario" style="margin-bottom: 130px;margin-bottom: 60px;"></div>
+
+
+        <div class="Lista-comentarios">
+            <h2>Faça seu comentário :)</h2>
+            <hr />
+        </div>
+        <div class="container">
+            <form action="/pagina" class="col-7" id="comentarioForm">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="usuario" placeholder="Usuário: ">
+                </div>
+
+                <div class="form-group">
+                    <label>Sobre qual livro você quer fazer um comentário? </label>
+                    <select name="livro">
+                        <option selected disabled value="">Selecione...</option>
+                        <option>Sobre o Olímpo</option>
+                        <option>PJO 1</option>
+                        <option>PJO 1</option>
+                        <option>PJO 2</option>
+                        <option>PJO 3</option>
+                        <option>PJO 4</option>
+                        <option>PJO 5</option>
+                        <option>HDO 1</option>
+                        <option>HDO 2</option>
+                        <option>HDO 3</option>
+                        <option>HDO 4</option>
+                        <option>HDO 5</option>
+                        <option>CK 1</option>
+                        <option>CK 2</option>
+                        <option>CK 3</option>
+                        <option>MC 1</option>
+                        <option>MC 2</option>
+                        <option>MC 3</option>
+                        <option>PA 1</option>
+                        <option>PA 2</option>
+                        <option>PA 3</option>
+                        <option>PA 4</option>
+                        <option>PA 5</option>
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <textarea type="text" class="form-control" rows="6" name="comentario"
+                        placeholder="Faça seu comentário: "></textarea>
+                </div>
+
+                <button class="botao botao-entrar">Enviar comentário</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="comentario.js"></script>
+</body>
+
+</html>
