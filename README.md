@@ -4,4 +4,3 @@ This is a web project template that I made during the classes of the web develop
 
 The project relies on HTML, CSS, JavaScript and a database will be implemented in the future.
 
-You can see the layout here:  https://www.figma.com/file/nVCmlMVHyUfIGthjdFClLi/Wireframes?node-id=4-2
